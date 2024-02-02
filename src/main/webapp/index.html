@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Index Page</title>
+<style>
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.bgimage {
+	background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+		url("./static/img/BG.jpg");
+	background-size: 100%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu {
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.leftmenu {
+	width: 500px;
+	line-height: 30Px;
+	float: left;
+}
+
+.leftmenu h4 {
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'montserrat', sans-serif;
+}
+
+.rightmenu {
+	width: 60%;
+	height: 100Px;
+	float: right;
+}
+
+.rightmenu ul {
+	margin-left: 200px;
+}
+
+.rightmenu ul li {
+	display: inline-block;
+	font-family: 'montserrat', sans-serif;
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.rightmenu ul li:hover {
+	color: #00ccff;
+}
+
+#firstlist {
+	color: #00ccff;
+}
+
+.text {
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+
+.text h4 {
+	font-size: 14px;
+	font-family: 'open sans', sans-serif;
+}
+
+.text h1 {
+	font-size: 62px;
+	font-family: 'montserrat', sans-serif;
+	font-weight: 700px;
+	margin: 14px 0px;
+}
+
+.text h3 {
+	font-size: 15px;
+	font-family: 'open sans', sans-serif;
+}
+
+.btn {
+	background-color: rgba(255, 255, 255, 0.164);
+	color: white;
+	font-family: 'montserrat', sans-serif;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	margin-top: 25px;
+	border: 3px solid white;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: white;
+	color: black;
+}
+</style>
+</head>
+<body>
+	<div class="bgimage">
+		<div class="menu">
+			<div class="leftmenu">
+			<h4>Made By : MRITYUNJAY PARMAR </h4>
+<!-- 		<a <button id="btn1">Click here href="https://www.linkedin.com/in/mrityunjay-parmar-095a941b7/"></a></button> -->		
+</div>
+			<div class="rightmenu">
+				<ul>
+					<li id="firstlist" >Home</li>
+					<li>Services</li>
+					<li>Work</li>
+					<li>About Us</li>
+					<li>Blogs</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="text">
+			<h4>DESIGN * DEVELOPMENT * BRANDING</h4>
+			<h1>CREATIVE & EXPERIENCED</h1>
+			<h3>WE ARE THE ONE OF THE WORLD'S TOP CREATIVE DESIGN AGENCIES</h3>
+			<button class="btn">
+				<a href="login.jsp">Login</a>
+			</button>
+			<button class="btn">
+				<a href="signup.jsp">Signup</a>
+			</button>
+		</div>
+
+	</div>
+
+</body>
+</html>
